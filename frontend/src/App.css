@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.app-container {
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  color: #555;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-top: 30px;
+}
+
+/* Feedback Form Styles */
+.feedback-form {
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.feedback-form div {
+  margin-bottom: 15px;
+}
+
+.feedback-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #666;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form textarea,
+.feedback-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.feedback-form textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.feedback-form button {
+  background-color: #5cb85c;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.feedback-form button:hover {
+  background-color: #4cae4c;
+}
+
+/* Feedback Dashboard Styles */
+.feedback-dashboard {
+  margin-top: 20px;
+}
+
+.feedback-dashboard .controls {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #eee;
+  border-radius: 5px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.feedback-dashboard .controls label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.feedback-dashboard .controls select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.feedback-dashboard table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.feedback-dashboard th,
+.feedback-dashboard td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.feedback-dashboard th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.feedback-dashboard tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.feedback-dashboard tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Error and Success Messages */
+.error-message {
+  color: #d9534f;
+  background-color: #f2dede;
+  border: 1px solid #ebccd1;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.success-message {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
