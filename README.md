@@ -2,7 +2,6 @@
 
 A full-stack web application for collecting, displaying, and analyzing user feedback. This project consists of a React frontend with Material UI and a Node.js/Express backend with MongoDB.
 
-![User Feedback System](https://via.placeholder.com/800x400?text=User+Feedback+System)
 
 ## Features
 
